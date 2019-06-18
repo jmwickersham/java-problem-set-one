@@ -1,4 +1,6 @@
 public class Human extends Mammal {
-    public Human(String name, double weight, String food, String motion) {
+    public Human(String name) {
+        super(name, 75, "avocado toast", "walking");
+        setNoise("eep");
     }
 }

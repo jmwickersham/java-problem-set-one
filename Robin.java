@@ -1,8 +1,6 @@
-public class Robin extends Bird implements Noisy {
+public class Robin extends Bird {
   public Robin(String name) {
-  }
-
-  public String getNoise() {
-    return "chirp";
+    super(name, 1.5, "seeds", "flying");
+    setNoise("chirp");
   }
 }
